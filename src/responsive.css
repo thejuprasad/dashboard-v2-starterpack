@@ -1,0 +1,23 @@
+/* responsive.css */
+
+@media screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for screens between 769px and 1024px wide */
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (min-width: 1025px) {
+    /* Styles for screens 1025px and wider */
+    body {
+      font-size: 18px;
+    }
+  }
+  
